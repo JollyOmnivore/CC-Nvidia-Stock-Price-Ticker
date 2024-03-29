@@ -1,7 +1,7 @@
 while true do
  
 -- URL of your external service that returns the JSON response
-local url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=EZYF20A4H6JZ785J"
+local url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=NVDA&apikey=YOUR_KEY_HERE" --Add your api key
  
 local function getNvidiaStockPrice()
     -- Make the HTTP GET request
